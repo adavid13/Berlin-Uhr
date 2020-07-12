@@ -9,7 +9,7 @@ except ImportError:
 
 top = Tk()
 top.geometry("450x450")
-top.title("Berlin Uhr Clock")
+top.title("Berlin Uhr")
 top.iconbitmap(r'C:\Users\amir1\Downloads\good.ico')
 can = Canvas(top, bg="#eee", height=450, width=450)
 can.pack()
@@ -19,8 +19,8 @@ innerCol = "#777"  # inner grey colour
 orange = "#FFA500"  # orange colour for the lights
 red = "#E22D00"  # red colour for the lights
 
-mainLabel = Label(top, text="Berlin Uhr Clock", font=("Arial", 20))
-mainLabel.place(x=125, y=5)
+mainLabel = Label(top, text="Berlin Uhr (Set Theory Clock)", font=("Arial", 17))
+mainLabel.place(x=75, y=5)
 
 ovalBack = can.create_oval(205, 55, 245, 95, fill=outerCol)
 innerOval = can.create_oval(210, 60, 240, 90, fill=innerCol)
