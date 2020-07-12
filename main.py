@@ -10,7 +10,7 @@ except ImportError:
 top = Tk()
 top.geometry("450x450")
 top.title("Berlin Uhr")
-top.iconbitmap(r'C:\Users\amir1\Downloads\good.ico')
+top.iconbitmap('appIcon.ico')
 can = Canvas(top, bg="#eee", height=450, width=450)
 can.pack()
 
