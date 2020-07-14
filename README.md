@@ -1,4 +1,14 @@
 # Berlin-Uhr
+
+<a href="https://www.python.org/" title="Go to the Python home page">
+    <img src="https://img.shields.io/badge/Language-Python-yellow" alt="Language Python badge" style="max-width:100%;">
+</a>
+<p>
+<a href="https://wiki.python.org/moin/TkInter" title="Go to the TKinter page">
+    <img src="https://img.shields.io/badge/GUI-TKinter-blueviolet" alt="User interface TKinter badge" style="max-width:100%;">
+</a>
+<br>
+
 ![Screenshot of the app](images/screenshot.PNG)
 
 ### Table of contents
@@ -9,9 +19,9 @@
 * [Potential future aspirations](#potential-future-aspirations)
 
 ### Introduction
-A couple of months ago I came across a [Reddit thread](https://www.reddit.com/r/whatisthisthing/comments/f53vcu/walked_past_this_many_times_while_in_berlin_and/?utm_source=share&utm_medium=web2x) on r/whatisthisthing, where a person was trying to figure out what was an interesting digital street sign that they saw in Berlin. A few people replied with the correct answer of "Mengenlehreuhr" with a link to the Wikipedia page about it. After reading about the clock and learning how to read it, I became really interested with its concept and decided to write a replica computer-application of the clock. Below is the image from the Reddit post.
+A couple of months ago I came across a [Reddit post](https://www.reddit.com/r/whatisthisthing/comments/f53vcu/walked_past_this_many_times_while_in_berlin_and/?utm_source=share&utm_medium=web2x) on r/whatisthisthing, where a person was trying to figure out what was an interesting digital street sign that they saw in Berlin. A few people replied with the correct answer of "Mengenlehreuhr" with a link to the Wikipedia page about it. After researching about the clock and learning how to read it, I became really interested with its concept and decided to write a replica computer-application of the clock. Below is the image from the Reddit post.
 
-![Image from the post](images/RealBerlinUhr.jpg)
+<img src="images/RealBerlinUhr.jpg" alt="Image from the post" title="The image from the Reddit post" height="600" />
 
 ### About Berlin-Uhr
 Berlin-Uhr (German for "Berlin Clock") or Mengenlehreuhr (German for "Set Theory Clock"), is the first public clock in the world that tells the time by means of illuminated, coloured fields, for which it entered the Guinness Book of Records upon its installation on 17 June 1975.
