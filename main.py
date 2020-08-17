@@ -15,7 +15,7 @@ top = Tk()
 dead = False # Status flag
 top.geometry("450x450")
 top.title("Berlin Uhr")
-top.iconbitmap('appIcon.ico')
+top.iconbitmap('assets/icons/appIcon.ico')
 top.resizable(height=FALSE, width=FALSE)
 can = Canvas(top, bg="#eee", height=450, width=450)
 can.pack()
