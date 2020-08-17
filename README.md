@@ -9,7 +9,7 @@
 </a>
 <br>
 
-![Screenshot of the app](assets/images/screenshot.PNG)
+![Screenshot of the app](/assets/images/screenshot.PNG)
 
 ### Table of contents
 * [Introduction](#introduction)
