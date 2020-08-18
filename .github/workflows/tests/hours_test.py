@@ -1,2 +1,1 @@
-def tester():
-    if()
+#Test program for main.py
