@@ -104,12 +104,14 @@ for x in range(1, 5, 1):
 def paint():
     hr = localtime()[3]
     top_hr = int(hr / 5)
-    if top_hr != 0:
-        for n in range(top_hr):
-            can.itemconfig(innerRec1[n], fill=red)
-    else:
-        for n in range(top_hr):
-            can.itemconfig(innerRec1[n], fill=red)
+    for n in range(top_hr):
+        can.itemconfig(innerRec1[n], fill=red)
+    # if top_hr != 0:
+    #     for n in range(top_hr):
+    #         can.itemconfig(innerRec1[n], fill=red)
+    # else:
+    #     for n in range(top_hr):
+    #         can.itemconfig(innerRec1[n], fill=red)
 
     btm_hr = hr % 5
     if btm_hr != 0:
